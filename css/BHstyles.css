@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header h1, h3 {
+    color: black;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited{
+    color: #DE24D5;
+}
+
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #53F1F1, #8838C3, #DE24D5, #53F1F1);
+    color: black;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    border-top: 3px solid #53F1F1;
+    background: #251F35;
+    color: white;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
