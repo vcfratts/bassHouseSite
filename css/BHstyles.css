@@ -17,12 +17,13 @@ a:link {
 }
 
 a:visited{
-    color: #DE24D5;
+    color: #53F1F1;
 }
 
-.site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+#footer {
+    background-image: linear-gradient(black, #8838C3, #DE24D5);
     padding: 20px 0;
+    color: white;
 }
 
 .jumbotron {
@@ -32,6 +33,10 @@ a:visited{
     color: black;
 }
 
+#jumbotronTitle {
+    font-size:8vw;
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
@@ -39,10 +44,9 @@ a:visited{
 }
 
 .navbar {
-    border-top: 3px solid #53F1F1;
     background: #251F35;
-    color: white;
 }
+
 
 .tab-content {
     border: 1px solid #DDD;
@@ -64,3 +68,9 @@ a:visited{
     bottom: 0;
     z-index: 100;
 }
+
+#sageHardwareCarouselCaption  {
+    color: orange;
+}
+
+

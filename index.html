@@ -1,55 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules\bootstrap" />
-
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/BHstyles.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="node_modules\fontawesome-free\css\all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    
-    
+   
+
+
     <title>BASS HOUSE</title>
 </head>
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <header class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="BHindex.html"><img src="--------------------------------" class="img-fluid" /></a>
+
+                <div class="col-sm-3 col-md-2 align-self-start">
+                    <a href="BHindex.html"><img src="img/BassHouseLogoThumbnail.jpg" class="d-none d-sm-inline" /></a>
                 </div>
-                <div class="col">
-                    <h1>BASS HOUSE</h1>
-                    <h3>Baltimore Based</h3>
+                <div class="col align-self-center text-right " >
+                    <h1 id="jumbotronTitle">BASS HOUSE</h1>
+                    <h4>Baltimore Based</h4>
+                    <div class="col-sm-3 col-me-2">
+
+                    </div>
+
                 </div>
             </div>
         </div>
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="--------- " height="30" width="30" /></a>
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#BHnavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="BHnavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
+                    <li class="button">
+                            <a href="index.html" class="btn btn-dark type="button">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
-                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="button">
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Artists
+                            </button>
+                            <div class="dropdown-menu bg-dark">
+                                <a class="dropdown-item" href="#">Ambien Boizzz</a>
+                                <a class="dropdown-item" href="#">Atlami11ia</a>
+                                <a class="dropdown-item" href="#">Dreamgliding</a>
+                                <a class="dropdown-item" href="#">ELITEPLEASURES</a>
+                                <a class="dropdown-item" href="">Glush</a>
+                                <a class="dropdown-item" href="#">Sage Hardware</a>
+                                <a class="dropdown-item" href="#">S O M B E R Æ T H E R</a>
+                                <a class="dropdown-item" href="#">visualculture</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="button">
+                        <div class="button">
+                            <a href="index.html" class="btn btn-dark type="button">Events</a>
+                        
+                    </li>
+                    <li class="button">
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Merch
+                            </button>
+                            <div class="dropdown-menu bg-dark">
+                                <a class="dropdown-item" href="#">Shop all</a>
+                                <a class="dropdown-item" href="#">Cassettes</a>
+                                <a class="dropdown-item" href="#">Shirts</a>
+                                <a class="dropdown-item" href="#">Stickers</a>
+                                <a class="dropdown-item" href="#">Vinyl</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <span class="navbar-text ml-auto">
 
@@ -66,44 +102,28 @@
                         <li data-target="#artistCarousel" data-slide-to="0 class=active"></li>
                         <li data-target="#artistCarousel" data-slide-to="1"></li>
                         <li data-target="#artistCarousel" data-slide-to="2"></li>
-                        <li data-target="#artistCarousel" data-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="-----------------"
-                                alt="Sage Hardware" />
+                            <img class="d-block w-100" src="img/sageHardware.jpg" alt="Sage Hardware" />
                             <div class="carousel-caption">
-                                <h3>Sage Hardware</h3>
-                                <p class="d-none d-sm-block">The man</p>
+                                <h1>Sage Hardware</h1>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="---------------" alt="Visual Culture" />
+                            <img class="d-block w-100" src="img/visualcultureNereids.jpg" alt="visualculture" />
                             <div class="carousel-caption">
-                                <h3>
-                                    Visual Culture
-                                </h3>
-                                <p class="d-none d-sm-block">The Mystery
-                                </p>
-
+                                <h1>
+                                    visualculture
+                                </h1>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="C:\Users\adminV\Desktop\imagesBH" alt="Dream Hardware" />
+                            <img class="d-block w-100" src="img/dreamhardwareBH016.jpg" alt="Dream Hardware" />
                             <div class="carousel-caption">
-                                <h3>
+                                <h1>
                                     Dream Hardware
-                                </h3>
-                                <p class="d-none d-sm-block">NEW THING</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="----------" alt="Ambien Boizzz" />
-                            <div class="carousel-caption">
-                                <h3>
-                                    Ambien Boizzz
-                                </h3>
-                                <p class="d-none d-sm-block">The beginning</p>
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -115,67 +135,97 @@
                         <span class="carousel-control-next-icon"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                        <button class="btn btn-sm btn-dark" id="carouselButton">
-                            <i class="fa fa-pause"></i>
-                        </button>
+                    <button class="btn btn-sm btn-dark" id="carouselButton">
+                        <i class="fa fa-pause"></i>
+                    </button>
                 </div>
             </div>
         </div>
 
 
-        <div class="row row-content align-items-center">
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="-----"
-                        alt="Galactic Espionage" />
 
-                        <img class="d-flex mr-3 img-thumbnail" src="-----"
-                        alt="Ambien Boizzz" />
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="font-weight-bold text-center mt-2">Merch!</h3>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col d-none d-sm-block">
+                    <h5 class=" text-center">Support the artists and get cool stuff!</h5>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
+                <div class="col">
+                    <div class="card-group">
 
-                        <img class="d-flex mr-3 img-thumbnail" src="--------"
-                        alt="visualculture" />
+                        <div class="card">
+                            <img src="img/cassette_Atlami11ia_GalacticEspionageBH010.jpg" class="card-img-top" alt="cassette_Atlami11ia_GalacticEspionageBH010">
+                            <div class="card-body">
+                                <p class="card-text">Galactic Espionage</p>
+                              <h4 class="card-title">Atlami11ia</h4>
+                            </div>
+                        </div>
+                          <div class="card">
+                            <img class="card-top img-thumbnail" src="img/cassette_AmbienBoizzzBH-001.jpg" alt="cassette_AmbienBoizzzBH-001" />
+                            <div class="card-body">
+                                <p class="card-text">BH Release 001</p>
+                              <h4 class="card-title">Ambien Boizzz.</h4>
+                            </div>
+                          </div>
 
-                    <div class="media-body align-self-center">
-                        <h3>Merch!</h3>
-                        <p class="d-none d-sm-block">Support hardworking artists and get cool stuff.</p>
+                          <div class="card">
+                            <img src="img/cassette_visualculture_nereidsBH-009.jpg" class="card-img-top" alt="cassette_visualculture_nereidsBH-009">
+                            <div class="card-body">
+                                <p class="card-text">Nereids</p>
+                              <h4 class="card-title">visualculture.</h4>
+                            </div>
+                          </div>
+                          
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <footer class="site-footer" id="footer">
+        <div class="container-fluid">
 
-    <footer class="site-footer">
-        <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
+                
+                
+                <div class="col-2 col-md-4">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="BHindex.html">Home</a></li>
-                        <li><a href="merch.html">Merch</a></li>
+                        <li><a href="BHindex.html">Artists</a></li>
                         <li><a href="events.html">Events</a></li>
+                        <li><a href="merch.html">Merch</a></li>
                         <li><a href="contact.html">Reach Out</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
+
+                <div class="col">
                     <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                            class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                            class="fa fa-youtube"></i></a>
-                    <a class="btn btn-social-icon btn-?????" href="http://tiktok.com"><i
-                            class="fa fa-??????"></i></a>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="emailaddress@whatnow.com"><i
-                            class="fa fa-envelope-o"></i> emailaddress@whatnow.com</a>
+                    <a id="offSiteBassHouseLinks" class="btn btn-social-icon btn-instagram" href="http://instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a id="offSiteBassHouseLinks" class="btn btn-social-icon btn-facebook" href="http://facebook.com/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a id="offSiteBassHouseLinks" class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a id="offSiteBassHouseLinks" class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a id="offSiteBassHouseLinks" class="btn btn-social-icon btn-bandcamp" href="https://basshousehtml.bandcamp.com/music">
+                        <i class="fas fa-music"></i>
+                    </a>
                 </div>
             </div>
+
         </div>
 
     </footer>
@@ -184,9 +234,9 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script>
-        $(function() {
-            $(".carousel").carousel( {interval:20000});
-            $("#carouselButton").click(function(){
+        $(function () {
+            $(".carousel").carousel({ interval: 20000 });
+            $("#carouselButton").click(function () {
                 if ($("#carouselButton").children("i").hasClass("fa-pause")) {
                     $(".carousel").carousel("pause");
                     $("#carouselButton").children("i").removeClass("fa-pause");
