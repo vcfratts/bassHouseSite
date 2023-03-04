@@ -47,7 +47,19 @@ a:visited{
     background: #251F35;
 }
 
+#eventCards {
+    align-self: center;
+    width: 50vw;"
+    border: 10px solid black;
+}
 
+#eventMonth {
+    background-color: #251F35;
+    color:#DE24D5;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
